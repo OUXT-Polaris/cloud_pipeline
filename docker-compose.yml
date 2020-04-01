@@ -1,0 +1,17 @@
+version: "2"
+services:
+  minio:
+    container_name: minio
+    image: minio/minio
+    ports:
+      - "9000:9000"
+    environment:
+      - "MINIO_ACCESS_KEY=minioadmin"
+      - "MINIO_SECRET_KEY=minioadmin"
+    command: server /export
+    restart: always
+
+networks:
+  default:
+    external:
+      name: minio-lambda-net
