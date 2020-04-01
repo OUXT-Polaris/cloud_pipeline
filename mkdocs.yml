@@ -30,5 +30,5 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 'index.md'
+  - 連番画像生成: 'minio.md'
   - CVAT: 'cvat.md'
