@@ -1,6 +1,12 @@
 site_name: Cloud Pipeline
 site_description: ''
 site_author: 'nakano16180'
+site_url: https://ouxt-polaris.github.io/cloud_pipeline/
+
+# Repository
+repo_name: OUXT-Polaris/cloud_pipeline
+repo_url: https://github.com/OUXT-Polaris/cloud_pipeline
+edit_uri: ""
 
 # Copyright
 copyright: 'Copyright (c) 2020'
