@@ -351,7 +351,7 @@ $ docker run --rm <span class="se">\</span>
 </code></pre></div>
 
 
-<p>以下の手順でサーバーの設定を行う。（http://http://172.17.0.2:9000 の部分はdocker-compose upしたときのログをみて適宜変更）</p>
+<p>以下の手順でサーバーの設定を行う。（http://172.17.0.2:9000 の部分はdocker-compose upしたときのログをみて適宜変更）</p>
 <div class="codehilite"><pre><span></span><code>$ docker run --rm --name mc --net<span class="o">=</span>minio-lambda-net -it --entrypoint<span class="o">=</span>/bin/sh minio/mc
 
 <span class="c1"># mc config host add myminio http://172.17.0.2:9000 minioadmin minioadmin</span>
